@@ -152,7 +152,7 @@ section .titolo-h2{
    
     /* debug */
      /* height: 300px;  */
-     background-color: lightseagreen; 
+     /* background-color: lightseagreen;  */
 }
 
 .img-sx{
@@ -164,18 +164,18 @@ section .titolo-h2{
 .col-cen{
     width: 56%;
     
-    margin-left: 2%;
+   margin-left: 2%;
     margin-right: 2%;
    
     /* debug */
-    height: 300px;
-    background-color: blueviolet; 
+    /* height: 300px; */
+    /* background-color: blueviolet;  */
 }
 
 .img-cen{
     object-fit: cover;
     height: 220px;
-    width: 320px;
+    width: 100%;
 }
 
 .title-caption{
