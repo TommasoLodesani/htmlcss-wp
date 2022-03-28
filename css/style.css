@@ -6,7 +6,7 @@
 }
 
 #container{
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -69,10 +69,7 @@ nav ul li{
 
 section .big-img{
     width: 100%;
-    height: 100%;
     position: relative;
-    
-    
     margin: 40px 0px;
     
     /* debug */
@@ -82,10 +79,9 @@ section .big-img{
 
 .banner{
     object-fit: cover;
-    height: 500px;
-    width: 1000px;
+    height: 470px;
+    width: 100%;
     
-    max-width: 100%;
   
 }
 
@@ -95,7 +91,7 @@ section .big-img{
     position: absolute;
     bottom: 40px;
     left: 35px;
-    color: white;
+    color: rgb(233, 224, 224);
     
 }
 
@@ -155,28 +151,21 @@ section .titolo-h2{
      /* background-color: lightseagreen;  */
 }
 
-.img-sx, .img-dx{
-    object-fit: cover;
-    height: 220px;
-    width: 100%;
-
-}
-
-.img-cen{
-    object-fit: cover;
-    height: 220px;
-    width: 100%;
-}
-
 .col-cen{
     width: 56%;
-    
-   margin-left: 2%;
+    margin-left: 2%;
     margin-right: 2%;
    
     /* debug */
     /* height: 300px; */
     /* background-color: blueviolet;  */
+}
+
+.img-sx, .img-dx, .img-cen{
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
+
 }
 
 
