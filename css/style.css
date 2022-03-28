@@ -80,7 +80,7 @@ section .big-img{
 
 .banner{
     object-fit: contain;
-    width: 770px;
+    /* width: 770px; */
     /* max-width: 100%; */
   
 }
@@ -123,7 +123,7 @@ section .titolo-h2{
 
 /* sezione row */
 .row{
-    background-color: blue;
+    /* background-color: blue; */
     padding: 18px 0;
 
     /* debug */
@@ -140,8 +140,18 @@ section .titolo-h2{
     width: 20%;
    
     /* debug */
-    height: 300px;
-    background-color: lightseagreen;
+    /* height: 300px; */
+    /* background-color: lightseagreen; */
+}
+
+.img-sx{
+    object-fit: contain;
+    width: 220px;
+}
+
+.img-cen{
+    object-fit: contain;
+    width: 400px;
 }
 
 
@@ -151,8 +161,13 @@ section .titolo-h2{
     margin-right: 2%;
    
     /* debug */
-    height: 300px;
-    background-color: blueviolet;
+    /* height: 300px; */
+    /* background-color: blueviolet; */
+}
+
+.title-caption{
+    margin: 10px 0;
+    font-weight: 700;
 }
 
 
@@ -164,7 +179,7 @@ footer{
     
     /* debug */
     background-color: rgb(255, 159, 255);
-    height: 70px;
+    /* height: 70px; */
 
 }
 
