@@ -41,8 +41,7 @@ header{
 .logo{
     width: 180px;
     padding-right: 15px;
-    border-right: solid 1px lightgrey;
-    object-fit: contain;
+    border-right: solid 1px rgb(138, 130, 130); 
     border-radius: 0%;
 }
 
@@ -163,7 +162,7 @@ section .titolo-h2{
 
 .img-sx, .img-dx, .img-cen{
     object-fit: cover;
-    height: 220px;
+    height: 190px;
     width: 100%;
 
 }
