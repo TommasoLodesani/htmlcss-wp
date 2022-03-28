@@ -57,13 +57,40 @@ nav ul li{
 /* corpo centrale */
 
 /* prima sezione */
+img{
+    filter: brightness(70%);
+    border-radius: 8px;
+
+}
+
 section .big-img{
     width: 100%;
+    
+    /* height: 500px; */
     margin: 40px 0px;
+    position: relative;
+    
     /* debug */
-    background-color: yellow;
-    height: 400px;
+    /* background-color: yellow; */
+    /* height: 400px; */
 }
+
+.banner{
+    object-fit: contain;
+    width: 770px;
+    /* max-width: 100%; */
+  
+}
+
+/* .caption{
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+
+} */
+
+
 
 
 /* titolo h2 */
