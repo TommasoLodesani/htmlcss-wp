@@ -81,7 +81,6 @@ section .big-img{
 
 .banner{
     object-fit: cover;
-    display: inline-block;
     height: 500px;
     width: 1000px;
     position: relative;
@@ -90,7 +89,7 @@ section .big-img{
 }
 
 .caption{
-    display: inline-block;
+  
     width: 50%;
     position: absolute;
     bottom: 40px;
@@ -155,10 +154,17 @@ section .titolo-h2{
      /* background-color: lightseagreen;  */
 }
 
-.img-sx{
+.img-sx, .img-dx{
     object-fit: cover;
-    width: 220px;
+    height: 220px;
+    width: 100%;
 
+}
+
+.img-cen{
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
 }
 
 .col-cen{
@@ -172,15 +178,16 @@ section .titolo-h2{
     /* background-color: blueviolet;  */
 }
 
-.img-cen{
-    object-fit: cover;
-    height: 220px;
-    width: 100%;
-}
+
 
 .title-caption{
     margin: 10px 0;
     font-weight: 700;
+}
+
+.text-caption{
+    color: rgb(138, 130, 130);
+
 }
 
 
@@ -189,12 +196,20 @@ section .titolo-h2{
 footer{
     width: 100%;
     margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
     
     /* debug */
-    background-color: rgb(255, 159, 255);
+    /* background-color: rgb(255, 159, 255); */
     /* height: 70px; */
 
 }
+
+.heart{
+    color: red;
+}
+
+
 
 
 
